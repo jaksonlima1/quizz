@@ -3,90 +3,125 @@
 #include <locale.h>
 #include <windows.h>
 
-//LEMBRANDO QUE O GAME É LIMITADO A 3 PARTICIPANTES
+//LEMBRANDO QUE O GAME É LIMITADO A 3 PARTICIPANTES!
 //ENTÃO A QUANTIDADE DE JOGADORES TEM QUE SER > 0 && <= A 3
-
 
 char r1, r2, r3, r4, r5, r6, r7, r8, r9, r10, r11, r12, r13, r14, r15;
 
 void pergunta1(){
+    printf("====================================================\n");
+    printf("            PERGUNTA 01/05  - JOGADOR 1\n");
+    printf("====================================================\n");
     printf("Qual a montanha mais alta do mundo?\n");
     printf("\nA) Mauna Kea\nB) Monty Python\nC) Monte Chimborazo\nD) Monte Everest\nE) Pico da Neblina\n");
-    printf("RESPOSTA: ");
+    printf("\nRESPOSTA: ");
     fflush(stdin);
     scanf(" %c", &r1);
 }
 void pergunta2(){
+    printf("====================================================\n");
+    printf("            PERGUNTA 02/05  - JOGADOR 1\n");
+    printf("====================================================\n");
     printf("A que temperatura a água ferve?\n");
     printf("\nA) 200 ºC\nB) -10 ºC\nC) 180 ºC\nD) 0 ºC\nE) 100 ºC\n");
-    printf("RESPOSTA: ");
+    printf("\nRESPOSTA: ");
     fflush(stdin);
     scanf(" %c", &r2);
 }
 void pergunta3(){
+    printf("====================================================\n");
+    printf("            PERGUNTA 03/05  - JOGADOR 1\n");
+    printf("====================================================\n");
     printf("Qual o maior planeta do sistema solar?\n");
     printf("\nA) Marte\nB) Lua\nC) Saturno\nD) Terra\nE) Júpiter\n");
-    printf("RESPOSTA: ");
+    printf("\nRESPOSTA: ");
     fflush(stdin);
     scanf(" %c", &r3);
 }
 void pergunta4(){
+    printf("====================================================\n");
+    printf("            PERGUNTA 04/05  - JOGADOR 1\n");
+    printf("====================================================\n");
     printf("Qual a maior floresta tropical do mundo?\n");
     printf("\nA) Mata Atlântica\nB) Pampas\nC) Pantanal\nD) Floresta Amazônica\nE) Caatinga\n");
-    printf("RESPOSTA: ");
+    printf("\nRESPOSTA: ");
     fflush(stdin);
     scanf(" %c", &r4);
 }
 void pergunta5(){
+    printf("====================================================\n");
+    printf("            PERGUNTA 05/05  - JOGADOR 1\n");
+    printf("====================================================\n");
     printf("Qual o monumento famoso pela sua inclinação?");
     printf("\nA) Torre Eiffel\nB) Esfinge\nC) Estátua da Liberdade\nD) Cristo Redentor\nE) Torre de Pisa\n");
-    printf("RESPOSTA: ");
+    printf("\nRESPOSTA: ");
     fflush(stdin);
     scanf(" %c", &r5);
 }
 void pergunta6(){
+    printf("====================================================\n");
+    printf("            PERGUNTA 01/05  - JOGADOR 2\n");
+    printf("====================================================\n");
     printf("Qual o planeta mais próximo do Sol?\n");
     printf("\nA) Netuno\nB) Júpiter\nC) Mercúrio\nD) Terra\nE) Marte\n");
-    printf("RESPOSTA: ");
+    printf("\nRESPOSTA: ");
     fflush(stdin);
     scanf(" %c", &r6);
 }
 void pergunta7(){
+    printf("====================================================\n");
+    printf("            PERGUNTA 02/05  - JOGADOR 2\n");
+    printf("====================================================\n");
     printf("Quem pintou Mona Lisa?\n");
     printf("\nA) Leonardo da Vinci\nB) Salvador Dalí\nC) Van Gogh\nD) Tarsila do Amaral\nE) Pablo Picasso\n");
-    printf("RESPOSTA: ");
+    printf("\nRESPOSTA: ");
     fflush(stdin);
     scanf(" %c", &r7);
 }
 void pergunta8(){
+    printf("====================================================\n");
+    printf("            PERGUNTA 03/05  - JOGADOR 2\n");
+    printf("====================================================\n");
     printf("Qual o nome popular do cloreto de sódio?\n");
     printf("\nA) Vinagre\nB) Água\nC) Papel\nD) Fermento\nE) Sal de cozinha\n");
-    printf("RESPOSTA: ");
+    printf("\nRESPOSTA: ");
     fflush(stdin);
     scanf(" %c", &r8);
 }
 void pergunta9(){
+    printf("====================================================\n");
+    printf("            PERGUNTA 04/05  - JOGADOR 2\n");
+    printf("====================================================\n");
     printf("Que grande evento histórico aconteceu em 1822 no Brasil?\n");
     printf("\nA) Proclamação da Republica\nB) Ditadura Militar\nC) Revolução de 1930\nD) Independência do Brasil\nE) Construção de Brasília\n");
-    printf("RESPOSTA: ");
+    printf("\nRESPOSTA: ");
     fflush(stdin);
     scanf(" %c", &r9);
 }
 void pergunta10(){
+    printf("====================================================\n");
+    printf("            PERGUNTA 05/05  - JOGADOR 2\n");
+    printf("====================================================\n");
     printf("O que comemora no feriado do dia 21 de abril no Brasil?\n");
     printf("\nA) Natal\nB) Tiradentes\nC) Independência do Brasil\nD) Finados\nE) Nossa Senhora Aparecida\n");
-    printf("RESPOSTA: ");
+    printf("\nRESPOSTA: ");
     fflush(stdin);
     scanf(" %c", &r10);
 }
 void pergunta11(){
+    printf("====================================================\n");
+    printf("            PERGUNTA 01/05  - JOGADOR 3\n");
+    printf("====================================================\n");
     printf("Que fruto nasce da oliveira?\n");
     printf("\nA) Amêndoa\nB) Abacate\nC) Azeitona\nD) Açaí\nE) Acerola\n");
-    printf("RESPOSTA: ");
+    printf("\nRESPOSTA: ");
     fflush(stdin);
     scanf(" %c", &r11);
 }
 void pergunta12(){
+    printf("====================================================\n");
+    printf("            PERGUNTA 02/05  - JOGADOR 2\n");
+    printf("====================================================\n");
     printf("Em que país de localiza o Taj Mahal?\n");
     printf("\nA) Egito\nB) Índia\nC) Inglaterra\nD) Brasil\nE) França\n");
     printf("RESPOSTA: ");
@@ -94,47 +129,60 @@ void pergunta12(){
     scanf(" %c", &r12);
 }
 void pergunta13(){
+    printf("====================================================\n");
+    printf("            PERGUNTA 03/05  - JOGADOR 3\n");
+    printf("====================================================\n");
     printf("Que navio famoso naufragou na sua viagem inaugural?\n");
     printf("\nA) Titanic\nB) Antonov\nC) Boeing\nD) Airbus\nE) Symphony of the Seas\n");
-    printf("RESPOSTA: ");
+    printf("\nRESPOSTA: ");
     fflush(stdin);
     scanf(" %c", &r13);
 }
 void pergunta14(){
+    printf("====================================================\n");
+    printf("            PERGUNTA 04/05  - JOGADOR 3\n");
+    printf("====================================================\n");
     printf("O que é um tsunami?\n");
     printf("\nA) Um ciclone\nB) Um tornado\nC) Um maremoto\nD) Um terremoto\nE) Um incêndio\n");
-    printf("RESPOSTA: ");
+    printf("\nRESPOSTA: ");
     fflush(stdin);
     scanf(" %c", &r14);
 }
 void pergunta15(){
+    printf("====================================================\n");
+    printf("            PERGUNTA 05/05  - JOGADOR 3\n");
+    printf("====================================================\n");
     printf("Qual destas substâncias faz parte da composição do vidro?\n");
     printf("\nA) Petróleo\nB) Fibra\nC) Celulose\nD) Areia\nE) Álcool\n");
-    printf("RESPOSTA: ");
+    printf("\nRESPOSTA: ");
     fflush(stdin);
     scanf(" %c", &r15);
 }
 
 void regras(){
+    system("cls");
     sleep(1);
-    printf("\n\n==== OLÁ JOGADOR ====\n\nANTES DE MAIS NADA, PRECISAMOS ESTABELECER ALGUMAS REGRAS!!!\n");
-    sleep(1);
-    printf("TODAS AS RESPOSTAS PERGUNTAS SERÃO DE MULTIPLA ESCOLHA!!! TENHA ISSO EM MENTE.\n");
-    sleep(3);
-    printf("TODAS AS RESPOSTAS DEVERAO SER ESCRITAS EM LETRA MAIUSCULA!!!");
+    printf("====================================================\n");
+    printf("                 OLÁ JOGADOR(ES)\n");
+    printf("====================================================\n");
+    printf("\n\nANTES DE MAIS NADA, PRECISAMOS ESTABELECER ALGUMAS REGRAS!!!\n\n");
     sleep(2);
-    printf("\nENTÃO, JÁ DEIXA SEU CAPSLOCK LIGADO!\n");
+    printf("REGRA 01 - TODAS AS RESPOSTAS PERGUNTAS SERÃO DE MULTIPLA ESCOLHA!!!\n");
+    printf("REGRA 02 - TODAS AS RESPOSTAS DEVERAO SER ESCRITAS EM LETRA MAIUSCULA!!!");
     sleep(2);
+    printf("\nOBS = ENTÃO, JÁ DEIXA SEU CAPSLOCK LIGADO!!!\n");
+    sleep(2);
+    printf("\n\n=====================================================================\n");
     printf("AS RESPOSTAS EQUIVALEM A:\n");
     sleep(1);
-    printf("\n=====================================================================\n");
+    printf("\n----------------------------------------------------------------------\n");
     printf("\nRESPOSTA CORRETA\t=\t 50 PONTOS\nRESPOSTA INCORRETA\t=\t-25 PONTOS\n");
     printf("\n=====================================================================\n");
-    printf("\nAS NOTAS DOS JOGADORES SERÃO SOMADAS E MOSTRADAS NO FINAL DO JOGO!\n");
+    printf("\nAS NOTAS DOS JOGADORES SERÃO SOMADAS E MOSTRADAS NO FINAL DO JOGO!!!\n");
     sleep(1);
     printf("\nBOA SORTE E DIVIRTA-SE\n");
-    printf("-------------------------------------------------------------------\n\n");
-    sleep(4);
+    sleep(8);
+    system("cls");
 }
 
 int main(void){
@@ -145,28 +193,61 @@ int main(void){
 
     setlocale(LC_ALL, "Portuguese");
 
-    printf("============= JOGO DE PERGUNTAS =============\n\n");
-    printf("Olá, quantos jogadores irão jogar? ");
+    printf("=====================================================================\n");
+    printf("                             QUIZZ\n");
+    printf("=====================================================================\n");
+    sleep(1);
+    printf("\nAOBA CHEFIA, QUANTOS JOGADORES TEREMOS DESSA VEZ? ");
     fflush(stdin);
     scanf("%d", &n);
 
     // LIMITAÇÕES
     while(n <= 0 || n > 3){
         if (n > 3){
-            printf("\nOPA... ESQUECI DE AVISAR, A QUANTIDADE MAX EH DE 3 JOGADORES!!\n");
+            system("cls");
+            printf("?");
             sleep(2);
             system("cls");
-            printf("============= JOGO DE PERGUNTAS =============\n\n");
-            printf("Olá, quantos jogadores irão jogar? ");
+            printf("??");
+            sleep(2);
+            system("cls");
+            printf("???");
+            system("cls");
+            sleep(2);
+            printf("=====================================================================\n");
+            printf("    OPA... ESQUECI DE AVISAR, A QUANTIDADE MAX EH DE 3 JOGADORES!!\n");
+            printf("=====================================================================\n");
+            sleep(4);
+            system("cls");
+            printf("=====================================================================\n");
+            printf("                             QUIZZ\n");
+            printf("=====================================================================\n");
+            sleep(1);
+            printf("\nAOBA, QUANTOS JOGADORES TEREMOS DESSA VEZ? ");
             fflush(stdin);
             scanf("%d", &n);
         }
         if (n <= 0){
-            printf("\nPERAE AMIGAO... PRECISA DE PELO MENOS 1 JOGADOR AQ...");
+            system("cls");
+            printf("?");
+            sleep(2);
+            system("cls");
+            printf("??");
+            sleep(2);
+            system("cls");
+            printf("???");
+            system("cls");
+            sleep(2);
+            printf("=====================================================================\n");
+            printf("  ??? PRECISA DE PELO MENOS 1 JOGADOR PRA ISSO AQUI FUNCIONAR !!!\n");
+            printf("=====================================================================\n");
             sleep(4);
             system("cls");
-            printf("============= JOGO DE PERGUNTAS =============\n\n");
-            printf("Olá, quantos jogadores irão jogar? ");
+            printf("=====================================================================\n");
+            printf("                             QUIZZ\n");
+            printf("=====================================================================\n");
+            sleep(1);
+            printf("\nAOBA, QUANTOS JOGADORES TEREMOS DESSA VEZ? ");
             fflush(stdin);
             scanf("%d", &n);
         }
@@ -179,8 +260,7 @@ int main(void){
         int jogador1 = 0;
         int acertos = 0;
         regras();
-        sleep(3);
-        printf("\nLEIA ATENTAMENTE AS REGRAS!!!\n");
+        sleep(5);
         printf("OLÁ JOGADOR 1, PODEMOS COMEÇAR? (S/N) ");
         fflush(stdin);
         scanf("%c", &iniciar);
