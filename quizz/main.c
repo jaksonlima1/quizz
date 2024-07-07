@@ -3,9 +3,6 @@
 #include <locale.h>
 #include <windows.h>
 
-//LEMBRANDO QUE O GAME É LIMITADO A 3 PARTICIPANTES!
-//ENTÃO A QUANTIDADE DE JOGADORES TEM QUE SER > 0 && <= A 3
-
 char r1, r2, r3, r4, r5, r6, r7, r8, r9, r10, r11, r12, r13, r14, r15;
 
 void pergunta1(){
@@ -17,6 +14,7 @@ void pergunta1(){
     printf("\nRESPOSTA: ");
     fflush(stdin);
     scanf(" %c", &r1);
+    r1 = toupper(r1);
 }
 void pergunta2(){
     printf("====================================================\n");
@@ -27,6 +25,7 @@ void pergunta2(){
     printf("\nRESPOSTA: ");
     fflush(stdin);
     scanf(" %c", &r2);
+    r2 = toupper(r2);
 }
 void pergunta3(){
     printf("====================================================\n");
@@ -37,6 +36,7 @@ void pergunta3(){
     printf("\nRESPOSTA: ");
     fflush(stdin);
     scanf(" %c", &r3);
+    r3 = toupper(r3);
 }
 void pergunta4(){
     printf("====================================================\n");
@@ -47,6 +47,7 @@ void pergunta4(){
     printf("\nRESPOSTA: ");
     fflush(stdin);
     scanf(" %c", &r4);
+    r4 = toupper(r4);
 }
 void pergunta5(){
     printf("====================================================\n");
@@ -57,6 +58,7 @@ void pergunta5(){
     printf("\nRESPOSTA: ");
     fflush(stdin);
     scanf(" %c", &r5);
+    r5 = toupper(r5);
 }
 void pergunta6(){
     printf("====================================================\n");
@@ -67,6 +69,7 @@ void pergunta6(){
     printf("\nRESPOSTA: ");
     fflush(stdin);
     scanf(" %c", &r6);
+    r6 = toupper(r6);
 }
 void pergunta7(){
     printf("====================================================\n");
@@ -77,6 +80,7 @@ void pergunta7(){
     printf("\nRESPOSTA: ");
     fflush(stdin);
     scanf(" %c", &r7);
+    r7 = toupper(r7);
 }
 void pergunta8(){
     printf("====================================================\n");
@@ -87,6 +91,7 @@ void pergunta8(){
     printf("\nRESPOSTA: ");
     fflush(stdin);
     scanf(" %c", &r8);
+    r8 = toupper(r8);
 }
 void pergunta9(){
     printf("====================================================\n");
@@ -97,6 +102,7 @@ void pergunta9(){
     printf("\nRESPOSTA: ");
     fflush(stdin);
     scanf(" %c", &r9);
+    r9 = toupper(r9);
 }
 void pergunta10(){
     printf("====================================================\n");
@@ -107,6 +113,7 @@ void pergunta10(){
     printf("\nRESPOSTA: ");
     fflush(stdin);
     scanf(" %c", &r10);
+    r10 = toupper(r10);
 }
 void pergunta11(){
     printf("====================================================\n");
@@ -117,6 +124,7 @@ void pergunta11(){
     printf("\nRESPOSTA: ");
     fflush(stdin);
     scanf(" %c", &r11);
+    r11 = toupper(r11);
 }
 void pergunta12(){
     printf("====================================================\n");
@@ -127,6 +135,7 @@ void pergunta12(){
     printf("RESPOSTA: ");
     fflush(stdin);
     scanf(" %c", &r12);
+    r12 = toupper(r12);
 }
 void pergunta13(){
     printf("====================================================\n");
@@ -137,6 +146,7 @@ void pergunta13(){
     printf("\nRESPOSTA: ");
     fflush(stdin);
     scanf(" %c", &r13);
+    r13 = toupper(r13);
 }
 void pergunta14(){
     printf("====================================================\n");
@@ -147,6 +157,7 @@ void pergunta14(){
     printf("\nRESPOSTA: ");
     fflush(stdin);
     scanf(" %c", &r14);
+    r14 = toupper(r14);
 }
 void pergunta15(){
     printf("====================================================\n");
@@ -157,6 +168,7 @@ void pergunta15(){
     printf("\nRESPOSTA: ");
     fflush(stdin);
     scanf(" %c", &r15);
+    r15 = toupper(r15);
 }
 
 void regras(){
@@ -166,23 +178,17 @@ void regras(){
     printf("                 OLÁ JOGADOR(ES)\n");
     printf("====================================================\n");
     printf("\n\nANTES DE MAIS NADA, PRECISAMOS ESTABELECER ALGUMAS REGRAS!!!\n\n");
-    sleep(2);
     printf("REGRA 01 - TODAS AS RESPOSTAS PERGUNTAS SERÃO DE MULTIPLA ESCOLHA!!!\n");
-    printf("REGRA 02 - TODAS AS RESPOSTAS DEVERAO SER ESCRITAS EM LETRA MAIUSCULA!!!");
-    sleep(2);
+    printf("(não pensei em nenhuma outra regra n...)");
     printf("\nOBS = ENTÃO, JÁ DEIXA SEU CAPSLOCK LIGADO!!!\n");
-    sleep(2);
     printf("\n\n=====================================================================\n");
     printf("AS RESPOSTAS EQUIVALEM A:\n");
-    sleep(1);
     printf("\n----------------------------------------------------------------------\n");
     printf("\nRESPOSTA CORRETA\t=\t 50 PONTOS\nRESPOSTA INCORRETA\t=\t-25 PONTOS\n");
     printf("\n=====================================================================\n");
     printf("\nAS NOTAS DOS JOGADORES SERÃO SOMADAS E MOSTRADAS NO FINAL DO JOGO!!!\n");
-    sleep(1);
     printf("\nBOA SORTE E DIVIRTA-SE\n");
-    sleep(8);
-    system("cls");
+    sleep(5);
 }
 
 int main(void){
@@ -206,14 +212,14 @@ int main(void){
         if (n > 3){
             system("cls");
             printf("?");
-            sleep(2);
+            sleep(1);
             system("cls");
             printf("??");
-            sleep(2);
+            sleep(1);
             system("cls");
             printf("???");
             system("cls");
-            sleep(2);
+            sleep(1);
             printf("=====================================================================\n");
             printf("    OPA... ESQUECI DE AVISAR, A QUANTIDADE MAX EH DE 3 JOGADORES!!\n");
             printf("=====================================================================\n");
@@ -222,7 +228,6 @@ int main(void){
             printf("=====================================================================\n");
             printf("                             QUIZZ\n");
             printf("=====================================================================\n");
-            sleep(1);
             printf("\nAOBA, QUANTOS JOGADORES TEREMOS DESSA VEZ? ");
             fflush(stdin);
             scanf("%d", &n);
@@ -230,14 +235,13 @@ int main(void){
         if (n <= 0){
             system("cls");
             printf("?");
-            sleep(2);
+            sleep(1);
             system("cls");
             printf("??");
-            sleep(2);
+            sleep(1);
             system("cls");
             printf("???");
             system("cls");
-            sleep(2);
             printf("=====================================================================\n");
             printf("  ??? PRECISA DE PELO MENOS 1 JOGADOR PRA ISSO AQUI FUNCIONAR !!!\n");
             printf("=====================================================================\n");
@@ -246,7 +250,6 @@ int main(void){
             printf("=====================================================================\n");
             printf("                             QUIZZ\n");
             printf("=====================================================================\n");
-            sleep(1);
             printf("\nAOBA, QUANTOS JOGADORES TEREMOS DESSA VEZ? ");
             fflush(stdin);
             scanf("%d", &n);
@@ -260,15 +263,14 @@ int main(void){
         int jogador1 = 0;
         int acertos = 0;
         regras();
-        sleep(5);
-        printf("OLÁ JOGADOR 1, PODEMOS COMEÇAR? (S/N) ");
+        printf("OLÁ, PODEMOS COMEÇAR? (S/N) ");
         fflush(stdin);
         scanf("%c", &iniciar);
+        iniciar = toupper(iniciar);
 
         if (iniciar == 'S'){
-            sleep(2);
             printf("\nVAMOS AS PERGUNTAS!!!\n");
-            sleep(3);
+            sleep(2);
             system("cls");
             pergunta1();
             if (r1 == 'D'){
@@ -329,12 +331,14 @@ int main(void){
             sleep(2);
             printf("AQUI ESTÁ SUA PONTUAÇÃO!!\n\n");
             sleep(2);
+            system("cls");
             printf("-------------------------------------\n");
             printf("JOGADOR 1\t=\t%d\n", jogador1);
             printf("-------------------------------------\n");
         } else {
             printf("\n\nNOS VEMOS NA PROXIMA ENT... :(\n");
             sleep(1);
+            system("pause");
             return 0;
         }
     }
@@ -351,9 +355,9 @@ int main(void){
         printf("OLÁ, PODEMOS COMEÇAR? (S/N) ");
         fflush(stdin);
         scanf(" %c", &iniciar);
+        iniciar = toupper(iniciar);
 
         if (iniciar == 'S'){
-            sleep(2);
             printf("\nVAMOS AS PERGUNTAS!!!\n");
             sleep(2);
             system("cls");
@@ -417,7 +421,7 @@ int main(void){
             printf("\nPARABENS JOGADOR 1!! VOCÊ ACERTOU %d DAS 5 PERGUNTAS!!\n\n", acertos1);
             sleep(2);
             printf("AGORA É A VEZ DO JOGADOR 2!!\n\n");
-            sleep(5);
+            sleep(2);
             system ("cls");
             pergunta6();
             if (r6 == 'C'){
@@ -494,6 +498,7 @@ int main(void){
         } else {
             printf("\n\nNOS VEMOS NA PROXIMA ENT... :(\n");
             sleep(1);
+            system("pause");
             return 0;
         }
     }
@@ -512,6 +517,7 @@ int main(void){
         printf("OLÁ, PODEMOS COMEÇAR? (S/N) ");
         fflush(stdin);
         scanf(" %c", &iniciar);
+        iniciar = toupper(iniciar);
 
         if (iniciar == 'S'){
             sleep(2);
@@ -577,7 +583,7 @@ int main(void){
             printf("\nPARABENS JOGADOR 1!! VOCÊ ACERTOU %d DAS 5 PERGUNTAS!!\n\n", acertos1);
             sleep(2);
             printf("AGORA É A VEZ DO JOGADOR 2!!\n\n");
-            sleep(5);
+            sleep(2);
             system("cls");
             pergunta6();
             if (r6 == 'C'){
@@ -637,7 +643,7 @@ int main(void){
             printf("\nPARABENS JOGADOR 2!! VOCÊ ACERTOU %d DAS 5 PERGUNTAS!!\n\n", acertos2);
             sleep(2);
             printf("AGORA É A VEZ DO JOGADOR 3!!\n\n");
-            sleep(5);
+            sleep(2);
             system("cls");
 
             pergunta11();
@@ -696,11 +702,10 @@ int main(void){
             sleep(2);
             system("cls");
             printf("\nPARABENS JOGADOR 3!! VOCÊ ACERTOU %d DAS 5 PERGUNTAS!!\n\n", acertos3);
-            sleep(4);
-            printf("\nAQUI VAI A PONTUAÇÃO DE CADA UM.........\n");
-            sleep(3);
-            system("cls");
             sleep(2);
+            printf("\nAQUI VAI A PONTUAÇÃO DE CADA UM.........\n");
+            sleep(2);
+            system("cls");
             printf("-------------------------------------\n");
             printf("JOGADOR 1\t=\t%d\n", jogador1);
             printf("JOGADOR 2\t=\t%d\n", jogador2);
@@ -725,16 +730,13 @@ int main(void){
 
         } else {
             printf("\n\nNOS VEMOS NA PROXIMA ENT... :(\n");
-            sleep(1);
+            system("pause");
             return 0;
         }
     }
     system("pause");
     return 0;
 }
-
-
-
 /*
 
 GABARITO
